@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Baby</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating hearts -->
+  <div class="hearts-container"></div>
+
+  <!-- Start screen -->
+  <div class="start-screen" id="startScreen">
+    <button id="startBtn"> ❤️ From My Heart ❤️</button>
+  </div>
+
+  <!-- Main content -->
+  <div class="content hidden" id="content">
+    <h1 id="typing"></h1>
+    <p id="typing2"></p>
+
+    <div class="emoji-row">
+      ❤️ 💖 💕 💗 ❤️
+    </div>
+
+    <!-- Memories Button -->
+    <button id="memoriesBtn" class="memories-btn">
+      💖 Memories 💖
+    </button>
+  </div>
+
+  <!-- Memories Section -->
+  <div class="memories-container hidden" id="memoriesSection">
+    <div class="photo-grid">
+
+      <div class="memory-card">
+        <img src="images/img1.jpg" class="memory">
+        <p class="caption">Our first beautiful memory ❤️</p>
+      </div>
+
+      <div class="memory-card">
+        <img src="images/img2.jpg" class="memory">
+        <p class="caption">Smiles that mean everything 💕</p>
+      </div>
+
+      <div class="memory-card">
+        <img src="images/img3.jpg" class="memory">
+        <p class="caption">You & Me, always 💖</p>
+      </div>
+
+      <div class="memory-card">
+        <img src="images/img4.jpg" class="memory">
+        <p class="caption">Moments I’ll never forget 🫶</p>
+      </div>
+
+      <div class="memory-card">
+        <img src="images/img5.jpg" class="memory">
+        <p class="caption">My safe place 💗</p>
+      </div>
+
+      <div class="memory-card">
+        <img src="images/img6.jpg" class="memory">
+        <p class="caption">Endless love 💘</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 💘 Love Question Section -->
+  <div class="content hidden" id="loveSection">
+    <h1 id="loveTyping"></h1>
+
+    <div class="emoji-row"></div>
+
+    <div class="love-buttons">
+      <button id="yesBtn" class="memories-btn">YES 💖</button>
+      <button id="noBtn" class="memories-btn">NO 😼</button>
+    </div>
+  </div>
+
+  <!-- 😼 NO Page -->
+  <div class="content hidden" id="noSection">
+    <img src="images/cat.gif" alt="cat" style="width:220px;margin-bottom:20px;">
+    <p id="noTyping"></p>
+    <button id="backBtn" class="memories-btn">GO BACK</button>
+  </div>
+
+ <!-- ❤️ Final Message Page -->
+<div class="content hidden" id="finalSection">
+  <div class="final-card">
+    <h2 class="final-title">A Special Message for You</h2>
+
+    <p class="final-text" id="finalTyping">
+      <!-- typing animation fills this -->
+    </p>
+
+    <div class="final-hearts">
+      💖 💗 💕
+    </div>
+  </div>
+</div>
+
+  <!-- Background music -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- SCRIPT MUST BE LAST -->
+  <script src="script.js"></script>
+
+</body>
+</html>
