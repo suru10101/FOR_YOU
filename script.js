@@ -29,7 +29,7 @@ const music = document.getElementById("bgMusic");
 ================================ */
 const text1 = " 💕 💕 Hy my love 💕 💕";
 const text2 =
-"For all the love and care you’ve given me till today,\nthis small gift is my way of saying thank you from my heart to yours.";
+"For all the love and care you’ve given me till today,\n\nthis small gift is my way of saying thank you from my heart to yours.";
 
 const typingEl1 = document.getElementById("typing");
 const typingEl2 = document.getElementById("typing2");
@@ -181,7 +181,7 @@ yesBtn.onclick = () => {
 
   typeText(
     finalTyping,
-    "Sneha,\n\nI want you to know how incredibly important you are to me. You are not just someone I love . you are someone who feels like home to my heart. My feelings for you are deep, pure, and unconditional, and every day I realize more how much you mean to me.\n\nI promise you this: no matter what life brings, I will never walk away from you. In your happiest moments, I’ll celebrate with you, and in your darkest days, I’ll stand beside you without hesitation. Your ups and downs are not something I fear they are something I choose, because I choose you.\n\nWhen you feel strong, I’ll admire you. When you feel weak, I’ll protect you. When you smile, it becomes my happiness, and when you’re silent, I’ll still understand you. I won’t leave when things get difficult, because my love for you isn’t temporary—it’s steady, patient, and true.\n\nYou matter to me more than words can fully explain. You are my priority, my comfort, and my constant. As long as I breathe, you won’t face life alone—I’ll be right there, holding your hand, choosing you every single time.\n\nAlways yours. ❤️",
+    "SNEHA ❤️ ,\n\nI want you to know how incredibly important you are to me. You are not just someone I love . you are someone who feels like home to my heart. My feelings for you are deep, pure, and unconditional, and every day I realize more how much you mean to me.\n\nI promise you this: no matter what life brings, I will never walk away from you. In your happiest moments, I’ll celebrate with you, and in your darkest days, I’ll stand beside you without hesitation. Your ups and downs are not something I fear they are something I choose, because I choose you.\n\nWhen you feel strong, I’ll admire you. When you feel weak, I’ll protect you. When you smile, it becomes my happiness, and when you’re silent, I’ll still understand you. I won’t leave when things get difficult, because my love for you isn’t temporary—it’s steady, patient, and true.\n\nYou matter to me more than words can fully explain. You are my priority, my comfort, and my constant. As long as I breathe, you won’t face life alone—I’ll be right there, holding your hand, choosing you every single time.\n\n“Only yours, SAURABH”. ❤️",
     70
   );
 };
@@ -211,3 +211,4 @@ noBtn.onclick = () => {
 backBtn.onclick = () => {
   loveSection.scrollIntoView({ behavior: "smooth" });
 };
+
